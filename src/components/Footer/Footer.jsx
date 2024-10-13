@@ -1,6 +1,7 @@
 import React from "react";
 import {
   FaFacebook,
+  FaGithub,
   FaInstagram,
   FaLinkedin,
   FaLocationArrow,
@@ -26,11 +27,11 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Noida, Uttar Pradesh</p>
+              <p>Mumbai,India</p>
             </div>
             <div className="mt-3 flex items-center gap-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
+              <p>+91 8898955930</p>
             </div>
             {/* Social Handle */}
           </div>
@@ -87,7 +88,7 @@ const Footer = () => {
                     placeholder="Email"
                   />
                   <div className="mt-6 flex items-center gap-3">
-                    <a href="#" className="duration-200 hover:scale-105">
+                    {/* <a href="#" className="duration-200 hover:scale-105">
                       <FaInstagram className="text-3xl" />
                     </a>
                     <a href="#" className="duration-200 hover:scale-105">
@@ -95,7 +96,14 @@ const Footer = () => {
                     </a>
                     <a href="#" className="duration-200 hover:scale-105">
                       <FaLinkedin className="text-3xl" />
-                    </a>
+                    </a> */}
+
+<a href="https://www.linkedin.com/in/rizwan-ansari-016253136/">
+                  <FaLinkedin className="text-3xl" />
+                </a>
+                <a href="https://github.com/Rizwan-Ansari-Git">
+                  <FaGithub className="text-3xl" />
+                </a>
                   </div>
                 </div>
               </div>
@@ -104,7 +112,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="border-t-2 border-gray-300/50 py-6 text-center">
-            @copyright 2024 Travery || Dilshad
+            @copyright 2024 Travery ||Rizwan
           </div>
         </div>
       </section>

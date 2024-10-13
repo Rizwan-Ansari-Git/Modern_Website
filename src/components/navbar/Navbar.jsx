@@ -155,7 +155,7 @@ const Navbar = () => {
               <li>
                 <div>
                   <p className="text-sm">Call us on</p>
-                  <p className="text-lg">+91 123456789</p>
+                  <p className="text-lg">+91 8898955930</p>
                 </div>
               </li>
             </div>
